@@ -1,0 +1,120 @@
+body {
+            margin: 0px;
+            padding: 0px;
+            
+}
+
+
+#menu {
+            width: 100%;
+            height: auto;
+            background-color: rgba(234, 237, 237,0.5);
+            position: fixed;
+          
+
+
+        }
+
+
+#menuList{
+             width: 100%;
+            list-style: none;
+            display: inline-flex;
+            margin: 10px;
+                     
+
+}
+
+
+#logo{
+        width: 80%;
+
+}
+
+#item{
+          
+            width: 10%;
+            float: right;
+
+}
+
+#item:hover, #item:active{
+    font-size:120%;
+    color:red;
+    transition-duration: 0.5s;
+}
+a{
+text-decoration:none;
+color:black;
+}
+a:active, a:hover{
+color: red;
+}
+
+
+#firstPage {
+    
+                padding-top: 55px;
+                height: auto;
+                background-image: url(../image/first-background.jpg);
+                background-repeat: no-repeat;
+                background-size: 110% 110%;
+                animation:flot 5s infinite alternate;
+
+            }
+
+            @keyframes flot {
+                0% {
+                  background-size: 110% 110%;
+                }
+                100% {
+                  background-size: 100% 100%;
+                }
+              }
+
+
+#frontPage {
+                width: 55%;
+                padding:auto;
+               margin-left: 20px;
+               font-style: italic;
+               font-family: Arial, Helvetica, sans-serif;
+               
+
+            }
+
+
+#secondPage{
+               
+                margin-top: 0px;
+                float: left;
+                width: 100%;
+
+}
+
+#titleMenu{
+
+            
+           
+            width: 100%;
+            float: left;
+            background-color: #F2F3F4;
+            text-align: center;
+            border-bottom: 0.5px solid black;
+            border-top: 0.5px solid black;
+}
+
+#sideBar {
+
+                float: left;
+                width: 20%;
+                background-color: #F2F3F4;
+                border-right: 0.3px solid black;
+                height: auto;
+}
+#mainBar{
+                width: 80%;
+                background-color: #F2F3F4;
+
+}
+
