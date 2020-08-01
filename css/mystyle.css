@@ -100,21 +100,56 @@ color: red;
             float: left;
             background-color: #F2F3F4;
             text-align: center;
-            border-bottom: 0.5px solid black;
-            border-top: 0.5px solid black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+            color: crimson;
+            box-shadow: 5px 10px 18px orange;
+            border-radius: 100px;
+
 }
 
 #sideBar {
-
+                margin-top: 20px;
                 float: left;
                 width: 20%;
                 background-color: #F2F3F4;
                 border-right: 0.3px solid black;
                 height: auto;
 }
+
+#sideBarList{
+                list-style-type: none;
+                padding: 10px;
+                
+
+}
+
+#content{
+                background-color: #FAD7A0;
+                padding: 10px;
+                margin: 2px;
+                border-radius: 20px;
+                cursor: pointer;
+                box-shadow: 5px 10px 18px orange;
+
+
+}
+
 #mainBar{
                 width: 80%;
                 background-color: #F2F3F4;
+                margin: 20px;
 
+}
+
+
+
+#popular{
+
+             
+}
+
+.tabularData{
+                
 }
 
