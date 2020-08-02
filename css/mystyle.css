@@ -172,6 +172,23 @@ color: red;
 
                 }
 
+#necklace{
+                  font-family: Arial, Helvetica, sans-serif;
+                  font-size: 20px;
+                  width: 100%;
+                  
+
+                }
+
+
+#earrings{
+                  font-family: Arial, Helvetica, sans-serif;
+                  font-size: 20px;
+                  width: 100%;
+                  
+
+                }
+
 
 .alignment{
                   float: left;
@@ -188,7 +205,7 @@ color: red;
     width: 75%;
     height: 450px;
     overflow: auto;
-    border: 10px ridge rgb(255, 183, 0);
+    border: 10px rgb(255, 183, 0);
     margin: auto;
 
 }

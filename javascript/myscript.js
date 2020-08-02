@@ -1,14 +1,15 @@
-    var n=prompt("Please Enter Your Name");
+  //  var n=prompt("Please Enter Your Name");
 
-    document.getElementById("enterName").innerHTML="Hiii "+n +",";
+  //  document.getElementById("enterName").innerHTML="Hiii "+n +",";
 
 function popular()
 {
         document.getElementById('popular').style.display='block';
         document.getElementById('ring').style.display='none';
-        document.getElementById('').style.display='none';
-        document.getElementById('').style.display='none';
-        document.getElementById('').style.display='none';
+        document.getElementById('necklace').style.display='none';
+        document.getElementById('earrings').style.display='none';
+        document.getElementById('bracelet').style.display='none';
+        document.getElementById('bangles').style.display='none';
         
 
 
@@ -19,9 +20,10 @@ function ring()
 {
         document.getElementById('ring').style.display='block';
         document.getElementById('popular').style.display='none';
-        document.getElementById('').style.display='none';
-        document.getElementById('').style.display='none';
-        document.getElementById('').style.display='none';
+        document.getElementById('necklace').style.display='none';
+        document.getElementById('earrings').style.display='none';
+        document.getElementById('bracelet').style.display='none';
+        document.getElementById('bangles').style.display='none';
         
 
 
@@ -30,11 +32,12 @@ function ring()
 
 function necklace()
 {
-        document.getElementById('').style.display='block';
-        document.getElementById('').style.display='none';
-        document.getElementById('').style.display='none';
-        document.getElementById('').style.display='none';
-        document.getElementById('').style.display='none';
+        document.getElementById('necklace').style.display='block';
+        document.getElementById('ring').style.display='none';
+        document.getElementById('popular').style.display='none';
+        document.getElementById('earrings').style.display='none';
+        document.getElementById('bracelet').style.display='none';
+        document.getElementById('bangles').style.display='none';
         
 
 
@@ -43,11 +46,12 @@ function necklace()
 
 function bracelet()
 {
-        document.getElementById('').style.display='block';
-        document.getElementById('').style.display='none';
-        document.getElementById('').style.display='none';
-        document.getElementById('').style.display='none';
-        document.getElementById('').style.display='none';
+        document.getElementById('bracelet').style.display='block';
+        document.getElementById('popular').style.display='none';
+        document.getElementById('ring').style.display='none';
+        document.getElementById('earrings').style.display='none';
+        document.getElementById('necklace').style.display='none';
+        document.getElementById('bangles').style.display='none';
         
 
 
@@ -56,11 +60,12 @@ function bracelet()
 
 function earRings()
 {
-        document.getElementById('').style.display='block';
-        document.getElementById('').style.display='none';
-        document.getElementById('').style.display='none';
-        document.getElementById('').style.display='none';
-        document.getElementById('').style.display='none';
+        document.getElementById('earrings').style.display='block';
+        document.getElementById('popular').style.display='none';
+        document.getElementById('ring').style.display='none';
+        document.getElementById('necklace').style.display='none';
+        document.getElementById('bracelet').style.display='none';
+        document.getElementById('bangles').style.display='none';
         
 
 
@@ -69,11 +74,12 @@ function earRings()
 
 function bangles()
 {
-        document.getElementById('').style.display='block';
-        document.getElementById('').style.display='none';
-        document.getElementById('').style.display='none';
-        document.getElementById('').style.display='none';
-        document.getElementById('').style.display='none';
+        document.getElementById('bangles').style.display='block';
+        document.getElementById('popular').style.display='none';
+        document.getElementById('ring').style.display='none';
+        document.getElementById('necklace').style.display='none';
+        document.getElementById('bracelet').style.display='none';
+        document.getElementById('earrings').style.display='none';
         
 
 
