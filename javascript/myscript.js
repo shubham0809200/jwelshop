@@ -1,6 +1,6 @@
-   var n=prompt("Please Enter Your Name");
+ //  var n=prompt("Please Enter Your Name");
 
-    document.getElementById("enterName").innerHTML="Hiii "+n +",";
+ //   document.getElementById("enterName").innerHTML="Hiii "+n +",";
 
 function popular()
 {
