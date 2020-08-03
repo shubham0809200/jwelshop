@@ -16,7 +16,7 @@ body {
         }
 #mainMenu{
 
-           
+           width: 100%;
 }
 
 
@@ -31,14 +31,14 @@ body {
 
 
 #logo{
-        width: 80%;
+        width: 50%;
 
 }
 
 #item{
           
             width: 10%;
-            float: right;
+            
             
 
 }
@@ -91,9 +91,9 @@ color: red;
 
 #secondPage{
                
-                margin-top: 0px;
-                float: left;
-                width: 97%;
+                margin: 0px;
+                
+                widows: 100%;
 
 }
 
@@ -102,7 +102,7 @@ color: red;
             
            
             width: 100%;
-            float: left;
+            
             background-color: #F2F3F4;
             text-align: center;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -113,13 +113,28 @@ color: red;
 
 }
 
+#frame h1{
+
+  width: 100%;
+            
+  
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 35px;
+  color: crimson;
+  box-shadow: 5px 10px 18px rgb(128, 136, 136);
+  
+}
+
+
+
 #sideBar {
                 margin-top: 20px;
                 float: left;
                 width: 20%;
                 background-color: #F2F3F4;
                 border-right: 0.3px solid black;
-                height: 450px;
+                height: 400px;
                 
 }
 
@@ -144,9 +159,7 @@ color: red;
 
 #mainBar{
                 
-                width: 99%;
-                margin: 20px;
-                padding: 20px;
+                width: 100%;               
                 background-color: #F2F3F4;
                
 
@@ -208,6 +221,12 @@ color: red;
                 }
 
 
+img{
+                  border: 1px ridge rgb(180, 73, 73);
+
+}
+
+
 
 
 .alignment{
@@ -238,6 +257,15 @@ color: red;
   border: 10px rgb(248, 249, 249);
   margin: auto;
   padding: 50px;
+
+}
+
+
+
+#thirdPage{
+
+    float: left;
+
 
 }
 
